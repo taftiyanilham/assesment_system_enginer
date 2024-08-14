@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_master_ruangan,master.ruangan,assessment.model_master_ruangan,base.group_user,1,1,1,1
+access_pemesanan_ruangan,pemesanan.ruangan,assessment.model_pemesanan_ruangan,base.group_user,1,1,1,1
+access_riwayat_pemesanan,riwayat.pemesanan,assessment.model_riwayat_pemesanan,base.group_user,1,1,1,1
+access_public_master_ruangan,master.ruangan,assessment.model_master_ruangan,,1,0,0,0
+access_public_pemesanan_ruangan,pemesanan.ruangan,assessment.model_pemesanan_ruangan,,1,0,0,0
+access_public_riwayat_pemesanan,riwayat.pemesanan,assessment.model_riwayat_pemesanan,,1,0,0,0
