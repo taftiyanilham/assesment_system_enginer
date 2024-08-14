@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="master_ruangan_action">
+            <field name="name">Master Ruangan</field>
+            <field name="res_model">master.ruangan</field>
+            <field name="binding_view_types">tree,form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+         <record model="ir.actions.act_window" id="pemesanan_ruangan_action">
+            <field name="name">Pemesanan Ruangan</field>
+            <field name="res_model">pemesanan.ruangan</field>
+            <field name="binding_view_types">tree,form</field>
+            <field name="view_mode">tree,form,kanban</field>
+             <field name="context">{'search_default_group_by_state': 1}</field>
+        </record>
+    </data>
+</odoo>
