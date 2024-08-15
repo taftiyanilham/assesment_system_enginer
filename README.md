@@ -1,7 +1,7 @@
 
-# Ruangan Module
+# Assessment System Engineer Tunas Grooup
 
-Modul Odoo untuk pemesanan ruangan, aplikasi menggunakan Odoo 14 dan Python 3.9
+menggunakan Odoo 14 dan Python 3.9
 
 
 
